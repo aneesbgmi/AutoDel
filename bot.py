@@ -7,11 +7,11 @@ API_HASH = "0f9ed2fdeb8dcbd92c7b86f42472aa2a"
 BOT_TOKEN = "6024171147:AAGdTW_zswDHZP3q_rwwggMzI1EF5QC21iA"
 SESSION = "BACPVpi01043Tq8svRGrhgwJg5Hn2jHoO2P1od9rXCcq2yRp-rtBqPqgM9DPnJ4yZmAWucO0v4aS1Bo6y6T4atWBMZqIcFXTRpoufsNje5HmTQvY2cnRrhNrb6SQo_7zgemAIvzJ0ZB3VycEl24lMuRS28qo1JSqaEejjmKU7x153jTjbPokCgoWnpJDQt2exrjfpNngIsDnaFdenyyRKMx1aXG9Y5rbwi6HzYzDgRbaGRvhaje2cyy0TCYuPSjUwk9H5Nz7ZSuvsNsYCet17mHEr5UfXtg27N2lXbHbiwhFM9vsClDYMT2GvLB4BzSMvuq01TL9YCpZx-sMiec6fM0nAAAAAWqwQggA"
 TIME = 60
-GROUPS = []
-for grp in "-1001942857176":
+GROUPS = [-1001942857176]
+for grp in GROUPS:
     GROUPS.append(int(grp))
-ADMINS = []
-for usr in "6084903432":
+ADMINS = [6084903432]
+for usr in ADMINS
     ADMINS.append(int(usr))
 
 START_MSG = "<b>Hai {},\nI'm a simple bot to delete group messages after a specific time</b>"
