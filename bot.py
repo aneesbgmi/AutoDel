@@ -2,11 +2,11 @@ import asyncio
 from os import environ
 from pyrogram import Client, filters, idle
 
-API_ID = int(environ.get("API_ID"))
-API_HASH = environ.get("API_HASH")
+API_ID = "25026211"
+API_HASH = "0f9ed2fdeb8dcbd92c7b86f42472aa2a"
 BOT_TOKEN = environ.get("BOT_TOKEN")
 SESSION = environ.get("SESSION")
-TIME = int(environ.get("TIME"))
+TIME = 60
 GROUPS = []
 for grp in environ.get("GROUPS").split():
     GROUPS.append(int(grp))
